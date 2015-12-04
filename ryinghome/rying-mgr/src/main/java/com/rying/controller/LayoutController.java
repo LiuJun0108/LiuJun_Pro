@@ -40,5 +40,10 @@ public class LayoutController {
 	public String welcome() {
 		return "layout/welcome";
 	}
+	
+	@RequestMapping("/err")
+	public String err() {
+		return "sys/err/error";
+	}
 
 }

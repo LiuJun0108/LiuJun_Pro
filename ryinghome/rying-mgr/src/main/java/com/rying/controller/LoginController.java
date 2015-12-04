@@ -48,6 +48,11 @@ public class LoginController extends BaseController {
 		return "login";
 	}
 
+	@RequestMapping("/main")
+	public String mainmethod() {
+		return "main";
+	}
+
 	private List<String> getAuthority(SysUser u) {
 		List<Resources> auths = this.roleService.findResourcesBySysUserId(u.getId());
 

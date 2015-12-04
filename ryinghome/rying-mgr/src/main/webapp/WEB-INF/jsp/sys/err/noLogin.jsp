@@ -10,7 +10,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <base href="<%=basePath%>">
-<jsp:include page="../baseInput.jsp"></jsp:include>
+<jsp:include page="../../baseInput.jsp"></jsp:include>
 <script type="text/javascript">
 $(function() {
 	$.messager.confirm('警告信息', '您未登陆或登陆超时，确定退出该系统吗？', function(r){

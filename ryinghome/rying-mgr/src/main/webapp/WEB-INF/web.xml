@@ -42,7 +42,7 @@
 		<init-param>
 			<description>如果用户未登录（即在 session 中 key 为 sessionKey 的属性不存在或为空），则将请求重定向到该 url。该 url 不包含web应用的 ContextPath。如果不配置此参数，则在用户未登录系统的情况下，直接重定向到web应用的根路径（/）</description>
 			<param-name>forwardUrl</param-name>
-			<param-value>sys/error.do</param-value>
+			<param-value>sys/err/noLogin.do</param-value>
 		</init-param>
 		<init-param>
 			<description>不需要进行拦截的 url 的正则表达式，即：如果当前请求的 url 的 servletPath 能匹配该正则表达式，则直接放行（即使未登录系统）。 此参数的值一般为 loginServlet 和 registServlet 等。另外，参数 redirectUrl 的值不用包含在该正则表达式中，因为 redirectUrl 对应的 url 会被自动放行。还有一点需要说明的是，该参数的值不包含web应用的 ContextPath。</description>
