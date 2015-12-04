@@ -1,0 +1,57 @@
+* {
+	font-size:12px
+}
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%
+}
+.table th, .table td {
+    border: 1px solid #8CACBB;
+    padding: 0.3em 0.7em;
+    text-align: left;
+}
+.table th {
+    background: none repeat scroll 0 0 #F8F8F8;
+    text-align: center;
+    white-space:nowrap;
+}
+.table td {
+    background: none repeat scroll 0 0 #F8F8F8;
+    white-space:nowrap;
+}
+.table thead th {
+    text-align: center;
+}
+.table tbody th {
+    text-align: right;
+}
+.table tr:hover {
+    background-color: #F6FAFD;
+}
+.table td:hover {
+    background-color: #F9FEFF;
+}
+.form th {
+    text-align: right;
+}
+.form th, .form td {
+    border: 1px solid #D1D7DC;
+    padding: 0.1em 0.3em;
+}
+.form input, .form select {
+    width: 150px;
+}
+.form input[type="checkbox"], .form input[type="radio"] {
+    width: 20px;
+}
+.form input[type="submit"], .form input[type="button"] {
+    width: 80px;
+}
+fieldset {
+    border: 1px dotted #D1D7DC;
+}
+legend {
+    border: 1px dotted #D1D7DC;
+    font-size: small;
+}

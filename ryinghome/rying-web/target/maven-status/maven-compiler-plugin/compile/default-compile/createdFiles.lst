@@ -1,0 +1,6 @@
+com\rying\controller\HomeController.class
+com\rying\model\Page.class
+com\rying\controller\RelaController.class
+com\rying\controller\BaseController.class
+com\rying\controller\NewsController.class
+com\rying\model\JsonMsg.class

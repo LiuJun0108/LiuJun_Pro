@@ -1,0 +1,21 @@
+.head-1 {
+
+background-color:#FFF;
+}
+
+body{  
+
+     overflow-x: hidden; 
+    margin: 0px ;
+    width:1440px;
+    padding:0Px;
+
+}
+#div container-fluid{
+	width:100%
+	overflow-x: hidden; 
+    
+    margin: 0px;
+    padding:0Px
+}
+.container{width: 1440px}
