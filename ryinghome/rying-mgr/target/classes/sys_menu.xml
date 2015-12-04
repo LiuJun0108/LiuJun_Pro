@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<menu name="系统管理" url="" seq="0" iconCls="icon-ok" description="系统管理">
-	<menu name="菜单管理" url="menu/menu.sys" seq="1" iconCls="icon-ok" description="菜单管理"/>
-	<menu name="资源管理" url="menu/resources.sys" seq="2" iconCls="icon-ok" description="资源管理"/>
-	<menu name="角色管理" url="menu/role.sys" seq="3" iconCls="icon-ok" description="角色管理"/>
-	<menu name="用户管理" url="menu/sysUser.sys" seq="4" iconCls="icon-ok" description="系统用户管理"/>
-</menu>
